@@ -7,34 +7,29 @@ interface CalculatorInterface {
 }
 
 class calculator  implements CalculatorInterface{
-  #result:number;
 
   add(a: number, b: number): number{
-    this.#result=a+b;
-    return this.#result;
+    return a+b; 
   }
 
   sub(a: number, b: number): number{
-    this.#result=a-b;
-    return this.#result;
+    return a-b; 
   }
 
   mul(a: number, b: number): number{
-    this.#result=a*b;
-    return this.#result;
+    return a*b; 
   }
 
   div(a: number, b: number): number{
     if (b===0){
       return undefined;
     }
-    this.#result=a/b;
-    return this.#result;
+    return a/b; 
   }
 
   mod(a: number, b: number): number{
-    this.#result=a%b;
-    return this.#result;
+        
+    return a%b; 
   }
 
 }
