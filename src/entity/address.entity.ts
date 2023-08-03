@@ -1,4 +1,4 @@
-import { Column, CreateDateColumn, DeleteDateColumn, Entity, ManyToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
+import { Column, CreateDateColumn, DeleteDateColumn, Entity, JoinColumn, ManyToOne, OneToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { Employee } from "./employee.entity";
 
 @Entity()
@@ -24,6 +24,7 @@ export class Address {
   @DeleteDateColumn()
   deletedat: Date;
 
-  @ManyToOne(() => Employee, (employee) => employee.address)
+  @OneToOne(() => Employee, (employee) => employee.address)
+  @JoinColumn()
   employee: Employee;
 }
