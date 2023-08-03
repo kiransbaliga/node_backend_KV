@@ -8,18 +8,18 @@ class EmployeeRepository {
 
   find(): Promise<Employee[]> {
     return this.employeeRepository.find({
-      relations:{
-        address:true,
-      }
+      relations: {
+        address: true,
+      },
     });
   }
 
   findOneBy(id: number): Promise<Employee> {
     return this.employeeRepository.findOne({
-      where: {id:id},
-      relations:{
-        address:true,
-      }
+      where: { id: id },
+      relations: {
+        address: true,
+      },
     });
   }
 
@@ -27,15 +27,11 @@ class EmployeeRepository {
     return this.employeeRepository.save(newEmployee);
   }
 
-  async updateEmployee(
-  employee:Employee
-  ): Promise<Employee> {
-    
+  async updateEmployee(employee: Employee): Promise<Employee> {
     return this.employeeRepository.save(employee);
   }
 
-  async deleteEmployee(id: number): Promise<Employee> {
-    const employee = await this.findOneBy(id);
+  async deleteEmployee(employee: Employee): Promise<Employee> {
     console.log(employee);
     return this.employeeRepository.softRemove(employee);
   }
