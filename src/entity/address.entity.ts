@@ -1,9 +1,8 @@
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Column, CreateDateColumn, DeleteDateColumn, Entity, ManyToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { Employee } from "./employee.entity";
 
 @Entity()
 export class Address {
-
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -16,6 +15,15 @@ export class Address {
   @Column()
   pincode: string;
 
-  @ManyToOne(()=>Employee,(employee)=>employee.address)
-  employee:Employee;
+  @CreateDateColumn()
+  createdat: Date;
+
+  @UpdateDateColumn()
+  updatedat: Date;
+
+  @DeleteDateColumn()
+  deletedat: Date;
+
+  @ManyToOne(() => Employee, (employee) => employee.address)
+  employee: Employee;
 }

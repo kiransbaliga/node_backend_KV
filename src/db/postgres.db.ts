@@ -10,7 +10,8 @@ const dataSource = new DataSource({
   database: "training",
   username: "postgres",
   password: "postgres",
-  logging: true,
+  // logging: true,
+  migrations: [],
   namingStrategy: new SnakeNamingStrategy(),
   synchronize: true,
 });
