@@ -17,6 +17,10 @@ class CreateNewEmployeeDto{
     @ValidateNested({each:true})
     @Type(()=>CreateNewAddressDto)
     address:Address;
+
+    @IsNotEmpty()
+    @IsString()
+    password:string;
 }
 
 export default CreateNewEmployeeDto

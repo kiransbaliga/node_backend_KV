@@ -57,7 +57,6 @@ class EmployeeController {
         CreateNewEmployeeDto,
         req.body
       );
-
       // we validate the DTO object and therefore validate the req body by using the validate funtion | returns error if the body is not correct
       const errors = await validate(createNewEmployeeDto);
       if (errors.length > 0) {
@@ -67,7 +66,8 @@ class EmployeeController {
       const savedEmployee = await this.employeeService.createNewEmployee(
         createNewEmployeeDto.name,
         createNewEmployeeDto.email,
-        createNewEmployeeDto.address
+        createNewEmployeeDto.password,
+        createNewEmployeeDto.address,
       );
       res.status(201).send(savedEmployee);
     } catch (error) {
@@ -91,11 +91,11 @@ class EmployeeController {
         console.log(JSON.stringify(errors));
         throw new ValidationException(400, "Validation Errors", errors);
       }
-
       const updatedEmployee = await this.employeeService.updateEmployee(
         Number(req.params.id),
         createNewEmployeeDto.name,
         createNewEmployeeDto.email,
+        createNewEmployeeDto.password,
         createNewEmployeeDto.address
       );
       res.status(200).send(updatedEmployee);
@@ -105,7 +105,6 @@ class EmployeeController {
   };
 
   // funtion deleteEmployee deletes the employee with id in request params | returns the deleted
-
   deleteEmployee = async (
     req: express.Request,
     res: express.Response,
