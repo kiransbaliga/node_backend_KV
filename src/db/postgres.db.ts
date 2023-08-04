@@ -5,12 +5,12 @@ import { Address } from "../entity/address.entity";
 
 const dataSource = new DataSource({
   type: "postgres",
-  host: "localhost",
-  port: 8765,
+  host: process.env.POSTGRES_HOST,
+  port: Number(process.env.POSTGRES_PORT),
   entities: ['dist/entity/*.js'],
-  database: "training",
-  username: "postgres",
-  password: "postgres",
+  database: process.env.POSTGRES_DATABASE,
+  username: process.env.POSTGRES_USERNAME,
+  password: process.env.POSTGRES_PASSWORD,
   logging: true,
   migrations: ['dist/db/migrations/*.js'],
   namingStrategy: new SnakeNamingStrategy(),

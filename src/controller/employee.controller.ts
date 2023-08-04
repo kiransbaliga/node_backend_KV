@@ -5,6 +5,8 @@ import CreateNewEmployeeDto from "../dto/create-employee.dto";
 import { validate } from "class-validator";
 import HttpException from "../exception/http.exception";
 import ValidationException from "../exception/validation.exception";
+import authenticate from "../middleware/authenticate.middleware";
+import authorize from "../middleware/authorize.middleware";
 
 class EmployeeController {
   // Create a router to be used as a middleware for handling different methods coming to the url <<url>>/employee
@@ -14,11 +16,12 @@ class EmployeeController {
   constructor(private employeeService: EmployeeService) {
     //define each routrer
     this.router = express.Router();
-    this.router.get("/", this.getAllEmployees);
-    this.router.get("/:id", this.getEmployeeById);
-    this.router.post("/", this.createNewEmployee);
-    this.router.put("/:id", this.updateEmployee);
-    this.router.delete("/:id", this.deleteEmployee);
+    this.router.get("/", authenticate, this.getAllEmployees);
+    this.router.get("/:id", authenticate, this.getEmployeeById);
+    this.router.post("/", authenticate, authorize, this.createNewEmployee);
+    this.router.put("/:id", authenticate, this.updateEmployee);
+    this.router.delete("/:id", authenticate, this.deleteEmployee);
+    this.router.post("/login", this.loginEmployee);
   }
 
   // Funtion getAllEmployees takes nothing as argument and returns all employee details along with addresses
@@ -68,6 +71,7 @@ class EmployeeController {
         createNewEmployeeDto.email,
         createNewEmployeeDto.password,
         createNewEmployeeDto.address,
+        createNewEmployeeDto.role
       );
       res.status(201).send(savedEmployee);
     } catch (error) {
@@ -96,6 +100,7 @@ class EmployeeController {
         createNewEmployeeDto.name,
         createNewEmployeeDto.email,
         createNewEmployeeDto.password,
+        createNewEmployeeDto.role,
         createNewEmployeeDto.address
       );
       res.status(200).send(updatedEmployee);
@@ -115,6 +120,20 @@ class EmployeeController {
         Number(req.params.id)
       );
       res.status(200).send(deletedEmployee);
+    } catch (err) {
+      next(err);
+    }
+  };
+
+  loginEmployee = async (
+    req: express.Request,
+    res: express.Response,
+    next: NextFunction
+  ) => {
+    const { email, password } = req.body;
+    try {
+      const token = await this.employeeService.loginEmployee(email, password);
+      res.status(200).send({ data: { token: token } });
     } catch (err) {
       next(err);
     }

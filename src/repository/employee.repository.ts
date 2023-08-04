@@ -8,15 +8,16 @@ class EmployeeRepository {
 
   find(): Promise<Employee[]> {
     return this.employeeRepository.find({
+      
       relations: {
         address: true,
       },
     });
   }
 
-  findOneBy(id: number): Promise<Employee> {
+  findOneBy(filter:Partial<Employee>): Promise<Employee| null> {
     return this.employeeRepository.findOne({
-      where: { id: id },
+      where: filter,
       relations: {
         address: true,
       },
