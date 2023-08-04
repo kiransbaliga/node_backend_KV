@@ -5,7 +5,7 @@ class ValidationException extends Error {
   public errors: object;
   constructor(status: number, message: string, error: ValidationError[]) {
     super(message);
-    this.status = status;
+    this.status = 400;
     this.errors = this.findConstraints(error);
   }
   findConstraints = (error: ValidationError[]) => {

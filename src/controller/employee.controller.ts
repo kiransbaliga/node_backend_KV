@@ -62,12 +62,12 @@ class EmployeeController {
       const errors = await validate(createNewEmployeeDto);
       if (errors.length > 0) {
         console.log(JSON.stringify(errors));
-        throw new ValidationException(404, "Validation Errors", errors);
+        throw new ValidationException(400, "Validation Errors", errors);
       }
       const savedEmployee = await this.employeeService.createNewEmployee(
-        req.body.name,
-        req.body.email,
-        req.body.address
+        createNewEmployeeDto.name,
+        createNewEmployeeDto.email,
+        createNewEmployeeDto.address
       );
       res.status(201).send(savedEmployee);
     } catch (error) {
@@ -89,14 +89,14 @@ class EmployeeController {
       const errors = await validate(createNewEmployeeDto);
       if (errors.length > 0) {
         console.log(JSON.stringify(errors));
-        throw new ValidationException(404, "Validation Errors", errors);
+        throw new ValidationException(400, "Validation Errors", errors);
       }
 
       const updatedEmployee = await this.employeeService.updateEmployee(
         Number(req.params.id),
-        req.body.name,
-        req.body.email,
-        req.body.address
+        createNewEmployeeDto.name,
+        createNewEmployeeDto.email,
+        createNewEmployeeDto.address
       );
       res.status(200).send(updatedEmployee);
     } catch (err) {
