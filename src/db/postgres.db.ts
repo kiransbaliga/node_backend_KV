@@ -1,12 +1,16 @@
 import { DataSource } from "typeorm";
+import * as dotenv from "dotenv";
+dotenv.config({ path: "dist/.env" });
+
 import { Employee } from '../entity/employee.entity';
 import { SnakeNamingStrategy } from "typeorm-naming-strategies";
 import { Address } from "../entity/address.entity";
 
+console.log("hello:"+Number(process.env.POSTGRES_PORT));
 const dataSource = new DataSource({
   type: "postgres",
   host: process.env.POSTGRES_HOST,
-  port: Number(process.env.POSTGRES_PORT),
+  port: 8765,
   entities: ['dist/entity/*.js'],
   database: process.env.POSTGRES_DATABASE,
   username: process.env.POSTGRES_USERNAME,

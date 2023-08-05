@@ -16,4 +16,6 @@ export class CreateNewAddressDto{
     @IsString()
     pincode:string;
 
+    
+
 }

@@ -1,4 +1,4 @@
-import { IsEnum, IsNotEmpty, IsString, ValidateNested, isNotEmpty } from "class-validator";
+import { IsEnum, IsNotEmpty, IsNumber, IsString, ValidateNested} from "class-validator";
 import { Address } from "../entity/address.entity";
 import { Type } from "class-transformer";
 import { CreateNewAddressDto } from "./create-address.dto";
@@ -26,6 +26,10 @@ class CreateNewEmployeeDto{
     @IsNotEmpty()
     @IsEnum(Role)
     role:Role
+
+    @IsNotEmpty()
+    @IsNumber()
+    department:number
 }   
 
 export default CreateNewEmployeeDto

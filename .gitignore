@@ -1,4 +1,10 @@
-node_modules
-dist
-checking.js
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+temp/
 .env
+dist/
+coverage/
+checking.js

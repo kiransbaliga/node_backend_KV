@@ -28,11 +28,11 @@ class EmployeeRepository {
     return this.employeeRepository.save(newEmployee);
   }
 
-  async updateEmployee(employee: Employee): Promise<Employee> {
+  updateEmployee(employee: Employee): Promise<Employee> {
     return this.employeeRepository.save(employee);
   }
 
-  async deleteEmployee(employee: Employee): Promise<Employee> {
+  deleteEmployee(employee: Employee): Promise<Employee> {
     console.log(employee);
     return this.employeeRepository.softRemove(employee);
   }

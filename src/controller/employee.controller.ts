@@ -16,12 +16,12 @@ class EmployeeController {
   constructor(private employeeService: EmployeeService) {
     //define each routrer
     this.router = express.Router();
-    this.router.get("/", authenticate, this.getAllEmployees);
-    this.router.get("/:id", authenticate, this.getEmployeeById);
+    this.router.get("/", authenticate, authorize, this.getAllEmployees);
+    this.router.get("/:id", authenticate, authorize, this.getEmployeeById);
     this.router.post("/", authenticate, authorize, this.createNewEmployee);
-    this.router.put("/:id", authenticate, this.updateEmployee);
-    this.router.delete("/:id", authenticate, this.deleteEmployee);
-    this.router.post("/login", this.loginEmployee);
+    this.router.put("/:id", authenticate, authorize, this.updateEmployee);
+    this.router.delete("/:id", authenticate, authorize, this.deleteEmployee);
+    this.router.post("/login", authenticate, authorize, this.loginEmployee);
   }
 
   // Funtion getAllEmployees takes nothing as argument and returns all employee details along with addresses
@@ -71,7 +71,8 @@ class EmployeeController {
         createNewEmployeeDto.email,
         createNewEmployeeDto.password,
         createNewEmployeeDto.address,
-        createNewEmployeeDto.role
+        createNewEmployeeDto.role,
+        createNewEmployeeDto.department
       );
       res.status(201).send(savedEmployee);
     } catch (error) {
@@ -101,7 +102,8 @@ class EmployeeController {
         createNewEmployeeDto.email,
         createNewEmployeeDto.password,
         createNewEmployeeDto.role,
-        createNewEmployeeDto.address
+        createNewEmployeeDto.address,
+        createNewEmployeeDto.department
       );
       res.status(200).send(updatedEmployee);
     } catch (err) {

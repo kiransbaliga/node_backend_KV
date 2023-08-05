@@ -27,7 +27,8 @@ class EmployeeService {
     email: string,
     password: string,
     address: any,
-    role:Role
+    role:Role,
+    department:number
   ): Promise<Employee> {
     const newAddress = new Address();
     newAddress.line1 = address.line1;
@@ -37,6 +38,7 @@ class EmployeeService {
     const newEmployee = new Employee();
     newEmployee.name = name;
     newEmployee.email = email;
+    newEmployee.department=department
     newEmployee.password = await bcrypt.hash(password, 10);
     newEmployee.role=role;
     newEmployee.address = newAddress;
@@ -50,7 +52,8 @@ class EmployeeService {
     email: string,
     password: string,
     role:Role,
-    address: any
+    address: any,
+    department:number
   ): Promise<Employee> {
     const employee = await this.employeeRepository.findOneBy({ id: id });
 
@@ -61,6 +64,7 @@ class EmployeeService {
     employee.name = name;
     employee.email = email;
     employee.role=role;
+    employee.department=department;
     employee.address.line1 = address.line1;
     employee.address.line2 = address.line2;
     employee.password = await bcrypt.hash(password, 10);
