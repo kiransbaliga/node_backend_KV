@@ -2,7 +2,7 @@ import { NextFunction, Response } from "express";
 import { RequestWithUser } from "../utils/requestWithUser";
 import { Role } from "../utils/role.enum";
 import HttpException from "../exception/http.exception";
-
+const Roles:string[]=[Role.HR,Role.ADMIN]
 const authorize = async (
   req: RequestWithUser,
   res: Response,
@@ -10,7 +10,7 @@ const authorize = async (
 ) => {
   try {
     const role = req.role;
-    if(role !=Role.HR){
+    if(!Roles.includes(role)){
       throw new HttpException(403,"You do not have the permission to perform this task");
     }
     next();

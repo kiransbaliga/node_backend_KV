@@ -21,7 +21,7 @@ class EmployeeController {
     this.router.post("/", authenticate, authorize, this.createNewEmployee);
     this.router.put("/:id", authenticate, authorize, this.updateEmployee);
     this.router.delete("/:id", authenticate, authorize, this.deleteEmployee);
-    this.router.post("/login", authenticate, authorize, this.loginEmployee);
+    this.router.post("/login", this.loginEmployee);
   }
 
   // Funtion getAllEmployees takes nothing as argument and returns all employee details along with addresses
