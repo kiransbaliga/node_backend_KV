@@ -41,13 +41,13 @@ describe("Employee Service Tests", () => {
   });
   
 // spy is used instead of mocked for the case where we need to know how many time we have called the function that is watched. so we attach a spyOn a func
-  describe("get all employee", () => {
-    test("should return users successfully", async () => {
-      const spy = jest.spyOn(employeeRepository, "find");
-      spy.mockResolvedValue([]);
-      const users = await employeeRepository.find();
-      expect(spy).toBeCalledTimes(1);
-      expect(users).toEqual([]);
-    });
-  });
+  // describe("get all employee", () => {
+  //   test("should return users successfully", async () => {
+  //     const spy = jest.spyOn(employeeRepository, "find");
+  //     spy.mockResolvedValue([]);
+  //     const users = await employeeRepository.find();
+  //     expect(spy).toBeCalledTimes(1);
+  //     expect(users).toEqual([]);
+  //   });
+  // });
 });

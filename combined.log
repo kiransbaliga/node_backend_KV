@@ -28,3 +28,9 @@
 {"level":"info","message":"Got all employees","service":"user-service"}
 {"level":"info","message":"Successfullt created new employee","service":"user-service"}
 {"address":{"line2":["line2 must be a string","line2 should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-06T16:55:40.774Z'
+}
