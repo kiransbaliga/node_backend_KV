@@ -7,7 +7,7 @@ import HttpException from "../exception/http.exception";
 import ValidationException from "../exception/validation.exception";
 import authenticate from "../middleware/authenticate.middleware";
 import authorize from "../middleware/authorize.middleware";
-
+import logger from "../middleware/winston.middleware";
 class EmployeeController {
   // Create a router to be used as a middleware for handling different methods coming to the url <<url>>/employee
   public router: express.Router;
@@ -16,8 +16,8 @@ class EmployeeController {
   constructor(private employeeService: EmployeeService) {
     //define each routrer
     this.router = express.Router();
-    this.router.get("/", authenticate, authorize, this.getAllEmployees);
-    this.router.get("/:id", authenticate, authorize, this.getEmployeeById);
+    this.router.get("/", authenticate, this.getAllEmployees);
+    this.router.get("/:id", authenticate, this.getEmployeeById);
     this.router.post("/", authenticate, authorize, this.createNewEmployee);
     this.router.put("/:id", authenticate, authorize, this.updateEmployee);
     this.router.delete("/:id", authenticate, authorize, this.deleteEmployee);
@@ -29,6 +29,7 @@ class EmployeeController {
   getAllEmployees = async (req: express.Request, res: express.Response) => {
     const employees = await this.employeeService.getAllEmployees();
     res.status(200).send(employees);
+    logger.log("info", "Got all employees");
   };
 
   // Function getEmployeeById  takes in id as request parameter ('/employee/:id') and returns the corresponding employee
@@ -43,6 +44,7 @@ class EmployeeController {
         Number(req.params.id)
       );
       res.status(200).send(employee);
+      logger.log("info", `Got the employees by id: ${req.params.id}`);
     } catch (error) {
       next(error);
     }
@@ -75,6 +77,8 @@ class EmployeeController {
         createNewEmployeeDto.department
       );
       res.status(201).send(savedEmployee);
+      logger.log("info", `Successfullt created new employee`);
+
     } catch (error) {
       next(error);
     }
@@ -106,6 +110,8 @@ class EmployeeController {
         createNewEmployeeDto.department
       );
       res.status(200).send(updatedEmployee);
+      logger.log("info", `Updated the employees by id: ${req.params.id}`);
+
     } catch (err) {
       next(err);
     }
@@ -122,6 +128,8 @@ class EmployeeController {
         Number(req.params.id)
       );
       res.status(200).send(deletedEmployee);
+      logger.log("info", `Deleted the employees by id: ${req.params.id}`);
+
     } catch (err) {
       next(err);
     }
@@ -136,6 +144,8 @@ class EmployeeController {
     try {
       const token = await this.employeeService.loginEmployee(email, password);
       res.status(200).send({ data: { token: token } });
+      logger.log("info", `Employee Logged in with email: ${email}`);
+
     } catch (err) {
       next(err);
     }

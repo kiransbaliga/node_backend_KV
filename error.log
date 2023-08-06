@@ -1,0 +1,5 @@
+{"level":"error","message":"Employee notfound with id : 9090","service":"user-service"}
+{"level":"error","message":"Unexpected token \" in JSON at position 0","service":"user-service"}
+{"level":"error","message":"You do not have the permission to perform this task","service":"user-service"}
+{"level":"error","message":"Unexpected token \" in JSON at position 0","service":"user-service"}
+{"address":{"pincode":["pincode must be a string","pincode should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}

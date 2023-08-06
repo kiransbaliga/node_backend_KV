@@ -6,3 +6,5 @@ const loggerMiddleware = (req: Request, res: Response, next: NextFunction) => {
 };
 
 export default loggerMiddleware;
+
+
