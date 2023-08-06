@@ -1,13 +1,14 @@
 import express, { NextFunction } from "express";
 import EmployeeService from "../service/employee.service";
 import { plainToInstance } from "class-transformer";
-import CreateNewEmployeeDto from "../dto/create-employee.dto";
+import EmployeeDto from "../dto/create-employee.dto";
 import { validate } from "class-validator";
 import HttpException from "../exception/http.exception";
 import ValidationException from "../exception/validation.exception";
 import authenticate from "../middleware/authenticate.middleware";
 import authorize from "../middleware/authorize.middleware";
 import logger from "../middleware/winston.middleware";
+import ApiResponse from "../utils/response";
 class EmployeeController {
   // Create a router to be used as a middleware for handling different methods coming to the url <<url>>/employee
   public router: express.Router;
@@ -28,7 +29,15 @@ class EmployeeController {
 
   getAllEmployees = async (req: express.Request, res: express.Response) => {
     const employees = await this.employeeService.getAllEmployees();
-    res.status(200).send(employees);
+    res
+      .status(200)
+      .send(
+        new ApiResponse(employees, "ok", null, {
+          total: employees.length,
+          took: new Date ().getTime() - req.body.time,
+          length: employees.length,
+        })
+      );
     logger.log("info", "Got all employees");
   };
 
@@ -43,7 +52,15 @@ class EmployeeController {
       const employee = await this.employeeService.getEmployeeById(
         Number(req.params.id)
       );
-      res.status(200).send(employee);
+      res
+        .status(200)
+        .send(
+          new ApiResponse(employee, "ok", null, {
+            total: 1,
+            took: new Date().getTime() - req.body.time,
+            length: 1,
+          })
+        );
       logger.log("info", `Got the employees by id: ${req.params.id}`);
     } catch (error) {
       next(error);
@@ -58,10 +75,7 @@ class EmployeeController {
   ) => {
     try {
       // we are creating a DTO object to and maps request body to the object
-      const createNewEmployeeDto = plainToInstance(
-        CreateNewEmployeeDto,
-        req.body
-      );
+      const createNewEmployeeDto = plainToInstance(EmployeeDto, req.body);
       // we validate the DTO object and therefore validate the req body by using the validate funtion | returns error if the body is not correct
       const errors = await validate(createNewEmployeeDto);
       if (errors.length > 0) {
@@ -76,9 +90,16 @@ class EmployeeController {
         createNewEmployeeDto.role,
         createNewEmployeeDto.department
       );
-      res.status(201).send(savedEmployee);
+      res
+        .status(201)
+        .send(
+          new ApiResponse(savedEmployee, "ok", null, {
+            total: 1,
+            took: new Date().getTime() - req.body.time,
+            length: 1,
+          })
+        );
       logger.log("info", `Successfullt created new employee`);
-
     } catch (error) {
       next(error);
     }
@@ -91,10 +112,7 @@ class EmployeeController {
   ) => {
     try {
       // Does the same validation of body as in create
-      const createNewEmployeeDto = plainToInstance(
-        CreateNewEmployeeDto,
-        req.body
-      );
+      const createNewEmployeeDto = plainToInstance(EmployeeDto, req.body);
       const errors = await validate(createNewEmployeeDto);
       if (errors.length > 0) {
         console.log(JSON.stringify(errors));
@@ -109,9 +127,16 @@ class EmployeeController {
         createNewEmployeeDto.address,
         createNewEmployeeDto.department
       );
-      res.status(200).send(updatedEmployee);
+      res
+        .status(200)
+        .send(
+          new ApiResponse(updatedEmployee, "ok", null, {
+            total: 1,
+            took: new Date().getTime() - req.body.time,
+            length: 1,
+          })
+        );
       logger.log("info", `Updated the employees by id: ${req.params.id}`);
-
     } catch (err) {
       next(err);
     }
@@ -127,9 +152,16 @@ class EmployeeController {
       const deletedEmployee = await this.employeeService.deleteEmployee(
         Number(req.params.id)
       );
-      res.status(200).send(deletedEmployee);
+      res
+        .status(200)
+        .send(
+          new ApiResponse(deletedEmployee, "ok", null, {
+            total: 1,
+            took: new Date().getTime() - req.body.time,
+            length: 1,
+          })
+        );
       logger.log("info", `Deleted the employees by id: ${req.params.id}`);
-
     } catch (err) {
       next(err);
     }
@@ -143,9 +175,16 @@ class EmployeeController {
     const { email, password } = req.body;
     try {
       const token = await this.employeeService.loginEmployee(email, password);
-      res.status(200).send({ data: { token: token } });
+      res
+        .status(200)
+        .send(
+          new ApiResponse({ token: token }, "ok", null, {
+            total: 1,
+            took: new Date().getTime() - req.body.time,
+            length: 1,
+          })
+        );
       logger.log("info", `Employee Logged in with email: ${email}`);
-
     } catch (err) {
       next(err);
     }

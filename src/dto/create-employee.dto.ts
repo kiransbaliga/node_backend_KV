@@ -4,7 +4,7 @@ import { Type } from "class-transformer";
 import { CreateNewAddressDto } from "./create-address.dto";
 import { Role } from "../utils/role.enum";
 
-class CreateNewEmployeeDto{
+class EmployeeDto{
     
     @IsNotEmpty()
     @IsString()
@@ -32,4 +32,4 @@ class CreateNewEmployeeDto{
     department:number
 }   
 
-export default CreateNewEmployeeDto
+export default EmployeeDto

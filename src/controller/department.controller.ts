@@ -9,6 +9,7 @@ import ValidationException from "../exception/validation.exception";
 import authenticate from "../middleware/authenticate.middleware";
 import authorize from "../middleware/authorize.middleware";
 import logger from "../middleware/winston.middleware";
+import ApiResponse from "../utils/response";
 class DepartmentController {
   public router: express.Router;
 
@@ -23,7 +24,13 @@ class DepartmentController {
 
   getAllDepartments = async (req: express.Request, res: express.Response) => {
     const departments = await this.departmentService.getAllDepartments();
-    res.status(200).send(departments);
+    res.status(200).send(
+      new ApiResponse(departments, "ok", null, {
+        total: departments.length,
+        took: new Date().getTime() - req.body.time,
+        length: departments.length,
+      })
+    );
     logger.log("info", "Got all Departments");
   };
 
@@ -36,7 +43,15 @@ class DepartmentController {
       const department = await this.departmentService.getDepartmentById(
         Number(req.params.id)
       );
-      res.status(200).send(department);
+      res
+        .status(200)
+        .send(
+          new ApiResponse(department, "ok", null, {
+            total: 1,
+            took: new Date().getTime() - req.body.time,
+            length: 1,
+          })
+        );
       logger.log("info", `got department with id : ${req.params.id}`);
     } catch (err) {
       next(err);
@@ -60,7 +75,15 @@ class DepartmentController {
       const newDepartment = await this.departmentService.createDepartment(
         createNewDepartmentDto.name
       );
-      res.status(201).send(newDepartment);
+      res
+        .status(201)
+        .send(
+          new ApiResponse(newDepartment, "ok", null, {
+            total: 1,
+            took: new Date().getTime() - req.body.time,
+            length: 1,
+          })
+        );
       logger.log("info", `Created new department `);
     } catch (Err) {
       next(Err);
@@ -84,7 +107,15 @@ class DepartmentController {
         Number(req.params.id),
         createNewDepartmentDto.name
       );
-      res.status(200).send(updatedDepartment);
+      res
+        .status(200)
+        .send(
+          new ApiResponse(updatedDepartment, "ok", null, {
+            total: 1,
+            took: new Date().getTime() - req.body.time,
+            length: 1,
+          })
+        );
       logger.log("info", `Updated department with id : ${req.params.id}`);
     } catch (err) {
       next(err);
@@ -100,7 +131,15 @@ class DepartmentController {
       const deleteDepartment = await this.departmentService.deleteDepartment(
         Number(req.params.id)
       );
-      res.status(204).send(deleteDepartment);
+      res
+        .status(204)
+        .send(
+          new ApiResponse(deleteDepartment, "ok", null, {
+            total: 1,
+            took: new Date().getTime() - req.body.time,
+            length: 1,
+          })
+        );
       logger.log("info", `deleted department with id : ${req.params.id}`);
     } catch (err) {
       next(err);

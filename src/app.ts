@@ -11,9 +11,9 @@ import employeeRoute from "./routes/employee.route";
 import HttpException from "./exception/http.exception";
 import errorMiddleware from "./middleware/error.middleware";
 import departmentRoute from "./routes/department.route";
+import logger from "./middleware/winston.middleware";
 
 const server = express();
-
 server.use(express.json());
 server.use(loggerMiddleware);
 server.use("/employees", employeeRoute);
@@ -21,6 +21,7 @@ server.use("/department", departmentRoute);
 server.get("/", (req, res) => {
   console.log(req.url);
   res.status(200).send("Hello World Express");
+  logger.log("Info", "server is up");
 });
 
 server.use(errorMiddleware);

@@ -9,3 +9,22 @@
 {"level":"info","message":"Employee Logged in with email: sukunan@gmail.com","service":"user-service"}
 {"level":"error","message":"Unexpected token \" in JSON at position 0","service":"user-service"}
 {"address":{"pincode":["pincode must be a string","pincode should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}
+{"address":{"pincode":["pincode must be a string","pincode should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}
+{"level":"error","message":"Unexpected token \" in JSON at position 0","service":"user-service"}
+{"address":{"pincode":["pincode must be a string","pincode should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}
+{"level":"error","message":"jwt expired","service":"user-service"}
+{"level":"info","message":"Employee Logged in with email: sukunan@gmail.com","service":"user-service"}
+{"level":"info","message":"Got all employees","service":"user-service"}
+{"level":"info","message":"Got all Departments","service":"user-service"}
+{"level":"info","message":"Got all Departments","service":"user-service"}
+{"level":"error","message":"Department Not found with id: 555","service":"user-service"}
+{"level":"error","message":"Department Not found with id: 555","service":"user-service"}
+{"address":{"pincode":["pincode must be a string","pincode should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}
+{"address":{"pincode":["pincode must be a string","pincode should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}
+{"level":"info","message":"Got all employees","service":"user-service"}
+{"level":"info","message":"Got all employees","service":"user-service"}
+{"level":"info","message":"Got all employees","service":"user-service"}
+{"level":"info","message":"Got all employees","service":"user-service"}
+{"level":"info","message":"Got all employees","service":"user-service"}
+{"level":"info","message":"Successfullt created new employee","service":"user-service"}
+{"address":{"line2":["line2 must be a string","line2 should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}

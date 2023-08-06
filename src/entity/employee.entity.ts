@@ -11,7 +11,7 @@ export class Employee extends AbstractEntity {
 
   @Column()
   email: string;
-
+   
   @Column()
   password: string;
 
