@@ -48,14 +48,14 @@ class EmployeeController {
   // Funtion getAllEmployees takes nothing as argument and returns all employee details along with addresses
 
   getAllEmployees = async (req: express.Request, res: express.Response) => {
-    const skip = Number(req.query.skip) | 0 ;
+    const skip = Number(req.query.skip) | 0;
     const take = Number(req.query.take) | 10;
-    const employees = await this.employeeService.getAllEmployees(skip,take);
+    const employees = await this.employeeService.getAllEmployees(skip, take);
     res.status(200).send(
-      new ApiResponse(employees, "ok", null, {
-        total: employees.length,
+      new ApiResponse(employees[0], "ok", null, {
+        total: employees[1],
         took: new Date().getTime() - req.body.time,
-        length: employees.length,
+        length: employees[0].length,
       })
     );
     logger.log("info", "Got all employees");
@@ -89,12 +89,12 @@ class EmployeeController {
       next(error);
     }
   };
-  
+
   /**
    * CreateNewEMployee is a post request with the details of employee and address in the request body. returns the newly created employee object
-   * @param req - 
-   * @param res 
-   * @param next 
+   * @param req -
+   * @param res
+   * @param next
    */
   createNewEmployee = async (
     req: express.Request,

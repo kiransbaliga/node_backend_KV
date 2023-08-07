@@ -10,7 +10,7 @@ import { Role } from "../utils/role.enum";
 class EmployeeService {
   constructor(private employeeRepository: EmployeeRepository) {}
 
-  getAllEmployees(skip:number,take:number): Promise<Employee[]> {
+  getAllEmployees(skip:number = 0,take:number = 10): Promise<[Employee[],number]> {
     return this.employeeRepository.find(skip,take);
   }
 

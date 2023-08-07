@@ -6,8 +6,8 @@ import { Address } from "../entity/address.entity";
 class EmployeeRepository {
   constructor(private employeeRepository: Repository<Employee>) {}
 
-  find(skip: number = 0, take: number = 1): Promise<Employee[]> {
-    const emp = this.employeeRepository.find({
+  find(skip: number = 0, take: number = 10): Promise<[Employee[],number]> {
+    const emp = this.employeeRepository.findAndCount({
       skip: skip,
       take: take,
       relations: {

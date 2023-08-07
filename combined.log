@@ -514,3 +514,9 @@
   service: 'user-service',
   timestamp: '2023-08-07T10:52:33.228Z'
 }
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:07:36.246Z'
+}
