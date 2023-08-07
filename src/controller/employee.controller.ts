@@ -10,12 +10,16 @@ import authorize from "../middleware/authorize.middleware";
 import logger from "../middleware/winston.middleware";
 import ApiResponse from "../utils/response";
 import { Role } from "../utils/role.enum";
+import DepartmentService from "../service/department.service";
 class EmployeeController {
   // Create a router to be used as a middleware for handling different methods coming to the url <<url>>/employee
   public router: express.Router;
 
   // Constuctor to initialise the router || passing in controller -> service -> repository
-  constructor(private employeeService: EmployeeService) {
+  constructor(
+    private employeeService: EmployeeService,
+    private departmentService: DepartmentService
+  ) {
     //define each routrer
     this.router = express.Router();
     this.router.get("/", authenticate, this.getAllEmployees);
@@ -94,6 +98,11 @@ class EmployeeController {
         console.log(JSON.stringify(errors));
         throw new ValidationException(400, "Validation Errors", errors);
       }
+
+      const dept = await this.departmentService.getDepartmentById(
+        createNewEmployeeDto.department
+      );
+
       const savedEmployee = await this.employeeService.createNewEmployee(
         createNewEmployeeDto.name,
         createNewEmployeeDto.email,
@@ -131,6 +140,10 @@ class EmployeeController {
         console.log(JSON.stringify(errors));
         throw new ValidationException(400, "Validation Errors", errors);
       }
+      const dept = await this.departmentService.getDepartmentById(
+        createNewEmployeeDto.department
+      );
+
       const updatedEmployee = await this.employeeService.updateEmployee(
         Number(req.params.id),
         createNewEmployeeDto.name,

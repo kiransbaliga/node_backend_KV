@@ -39,7 +39,7 @@ export class Employee extends AbstractEntity {
 
   @ManyToOne(() => Department, (department) => department.id)
   @JoinColumn()
-  department: Department;
+  department: number;
 
   @Column()
   departmentId: number;

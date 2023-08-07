@@ -42,7 +42,7 @@ class EmployeeService {
     const newEmployee = new Employee();
     newEmployee.name = name;
     newEmployee.email = email;
-    newEmployee.department = <any>department;
+    newEmployee.department = department;
     newEmployee.password = await bcrypt.hash(password, 10);
     newEmployee.role = role;
     newEmployee.address = newAddress;
@@ -74,7 +74,7 @@ class EmployeeService {
     employee.name = name;
     employee.email = email;
     employee.role = role;
-    employee.department = <any>department;
+    employee.departmentId= department;
     employee.address.line1 = address.line1;
     employee.address.line2 = address.line2;
     employee.password = await bcrypt.hash(password, 10);

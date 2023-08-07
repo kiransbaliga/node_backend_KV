@@ -199,3 +199,87 @@
   service: 'user-service',
   timestamp: '2023-08-07T09:08:29.073Z'
 }
+{
+  level: 'info',
+  message: 'Updated department with id : 3',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:14:32.519Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:14:40.671Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:18:14.754Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 25',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:19:51.901Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:19:59.838Z'
+}
+{
+  level: 'error',
+  message: 'Employee not found with id : 25',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:20:20.751Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:22:15.487Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 26',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:23:30.953Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:23:35.507Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:24:31.243Z'
+}
+{
+  level: 'error',
+  message: 'Department Not found with id: 25',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:28:01.151Z'
+}
+{
+  level: 'error',
+  message: 'Department Not found with id: 252',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:28:14.016Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:28:17.555Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 27',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:28:42.321Z'
+}
