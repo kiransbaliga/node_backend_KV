@@ -34,3 +34,168 @@
   service: 'user-service',
   timestamp: '2023-08-06T16:55:40.774Z'
 }
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-07T04:55:33.123Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T05:02:02.121Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T05:24:13.923Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T05:55:42.926Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: kiran@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-07T05:56:32.910Z'
+}
+{
+  level: 'error',
+  message: 'You do not have the permission to perform this task',
+  service: 'user-service',
+  timestamp: '2023-08-07T05:56:38.929Z'
+}
+{
+  level: 'error',
+  message: 'You do not have the permission to perform this task',
+  service: 'user-service',
+  timestamp: '2023-08-07T06:17:58.586Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T06:18:06.663Z'
+}
+{
+  level: 'error',
+  message: 'You do not have the permission to perform this task',
+  service: 'user-service',
+  timestamp: '2023-08-07T06:37:12.015Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-07T06:37:20.310Z'
+}
+{
+  service: 'user-service',
+  address: { line2: [ 'line2 must be a string', 'line2 should not be empty' ] },
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-07T06:37:24.169Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-07T06:37:41.055Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-07T06:49:30.473Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T08:01:10.434Z'
+}
+{
+  service: 'user-service',
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  joindate: [ 'joindate must be a string', 'joindate should not be empty' ],
+  status: [ 'status must be a boolean value', 'status should not be empty' ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-07T08:01:22.731Z'
+}
+{
+  service: 'user-service',
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  joindate: [ 'joindate must be a string', 'joindate should not be empty' ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-07T08:01:37.229Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-07T08:02:41.368Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:07:37.362Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:07:40.521Z'
+}
+{
+  level: 'error',
+  message: 'Employee not found with id : 25555',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:07:57.944Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 24',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:08:02.160Z'
+}
+{
+  service: 'user-service',
+  address: {
+    pincode: [ 'pincode must be a string', 'pincode should not be empty' ]
+  },
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  joindate: [ 'joindate must be a string', 'joindate should not be empty' ],
+  status: [ 'status must be a boolean value', 'status should not be empty' ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-07T09:08:13.221Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:08:17.937Z'
+}
+{
+  level: 'info',
+  message: 'got department with id : 3',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:08:29.073Z'
+}

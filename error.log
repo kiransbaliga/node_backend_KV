@@ -12,3 +12,72 @@
 {"address":{"pincode":["pincode must be a string","pincode should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}
 {"address":{"pincode":["pincode must be a string","pincode should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}
 {"address":{"line2":["line2 must be a string","line2 should not be empty"]},"level":"error","message":"Validation Errors","service":"user-service"}
+{
+  level: 'error',
+  message: 'You do not have the permission to perform this task',
+  service: 'user-service',
+  timestamp: '2023-08-07T05:56:38.929Z'
+}
+{
+  level: 'error',
+  message: 'You do not have the permission to perform this task',
+  service: 'user-service',
+  timestamp: '2023-08-07T06:17:58.586Z'
+}
+{
+  level: 'error',
+  message: 'You do not have the permission to perform this task',
+  service: 'user-service',
+  timestamp: '2023-08-07T06:37:12.015Z'
+}
+{
+  service: 'user-service',
+  address: { line2: [ 'line2 must be a string', 'line2 should not be empty' ] },
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-07T06:37:24.169Z'
+}
+{
+  service: 'user-service',
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  joindate: [ 'joindate must be a string', 'joindate should not be empty' ],
+  status: [ 'status must be a boolean value', 'status should not be empty' ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-07T08:01:22.731Z'
+}
+{
+  service: 'user-service',
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  joindate: [ 'joindate must be a string', 'joindate should not be empty' ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-07T08:01:37.229Z'
+}
+{
+  level: 'error',
+  message: 'Employee not found with id : 25555',
+  service: 'user-service',
+  timestamp: '2023-08-07T09:07:57.944Z'
+}
+{
+  service: 'user-service',
+  address: {
+    pincode: [ 'pincode must be a string', 'pincode should not be empty' ]
+  },
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  joindate: [ 'joindate must be a string', 'joindate should not be empty' ],
+  status: [ 'status must be a boolean value', 'status should not be empty' ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-07T09:08:13.221Z'
+}

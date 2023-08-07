@@ -5,6 +5,6 @@ build/
 tmp/
 temp/
 .env
+coverage
 dist/
-coverage/
 checking.js

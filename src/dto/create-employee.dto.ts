@@ -1,4 +1,4 @@
-import { IsEnum, IsNotEmpty, IsNumber, IsString, ValidateNested} from "class-validator";
+import { IsBoolean, IsEnum, IsNotEmpty, IsNumber, IsString, ValidateNested} from "class-validator";
 import { Address } from "../entity/address.entity";
 import { Type } from "class-transformer";
 import { CreateNewAddressDto } from "./create-address.dto";
@@ -30,6 +30,18 @@ class EmployeeDto{
     @IsNotEmpty()
     @IsNumber()
     department:number
+
+    @IsNotEmpty()
+    @IsNumber()
+    experience:number
+
+    @IsNotEmpty()
+    @IsString()
+    joindate:string
+
+    @IsNotEmpty()
+    @IsBoolean()
+    status:boolean
 }   
 
 export default EmployeeDto

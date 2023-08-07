@@ -9,6 +9,7 @@ import authenticate from "../middleware/authenticate.middleware";
 import authorize from "../middleware/authorize.middleware";
 import logger from "../middleware/winston.middleware";
 import ApiResponse from "../utils/response";
+import { Role } from "../utils/role.enum";
 class EmployeeController {
   // Create a router to be used as a middleware for handling different methods coming to the url <<url>>/employee
   public router: express.Router;
@@ -19,9 +20,24 @@ class EmployeeController {
     this.router = express.Router();
     this.router.get("/", authenticate, this.getAllEmployees);
     this.router.get("/:id", authenticate, this.getEmployeeById);
-    this.router.post("/", authenticate, authorize, this.createNewEmployee);
-    this.router.put("/:id", authenticate, authorize, this.updateEmployee);
-    this.router.delete("/:id", authenticate, authorize, this.deleteEmployee);
+    this.router.post(
+      "/",
+      authenticate,
+      authorize([Role.ADMIN, Role.HR]),
+      this.createNewEmployee
+    );
+    this.router.put(
+      "/:id",
+      authenticate,
+      authorize([Role.ADMIN, Role.HR]),
+      this.updateEmployee
+    );
+    this.router.delete(
+      "/:id",
+      authenticate,
+      authorize([Role.ADMIN, Role.HR]),
+      this.deleteEmployee
+    );
     this.router.post("/login", this.loginEmployee);
   }
 
@@ -29,15 +45,13 @@ class EmployeeController {
 
   getAllEmployees = async (req: express.Request, res: express.Response) => {
     const employees = await this.employeeService.getAllEmployees();
-    res
-      .status(200)
-      .send(
-        new ApiResponse(employees, "ok", null, {
-          total: employees.length,
-          took: new Date ().getTime() - req.body.time,
-          length: employees.length,
-        })
-      );
+    res.status(200).send(
+      new ApiResponse(employees, "ok", null, {
+        total: employees.length,
+        took: new Date().getTime() - req.body.time,
+        length: employees.length,
+      })
+    );
     logger.log("info", "Got all employees");
   };
 
@@ -52,15 +66,13 @@ class EmployeeController {
       const employee = await this.employeeService.getEmployeeById(
         Number(req.params.id)
       );
-      res
-        .status(200)
-        .send(
-          new ApiResponse(employee, "ok", null, {
-            total: 1,
-            took: new Date().getTime() - req.body.time,
-            length: 1,
-          })
-        );
+      res.status(200).send(
+        new ApiResponse(employee, "ok", null, {
+          total: 1,
+          took: new Date().getTime() - req.body.time,
+          length: 1,
+        })
+      );
       logger.log("info", `Got the employees by id: ${req.params.id}`);
     } catch (error) {
       next(error);
@@ -88,17 +100,18 @@ class EmployeeController {
         createNewEmployeeDto.password,
         createNewEmployeeDto.address,
         createNewEmployeeDto.role,
-        createNewEmployeeDto.department
+        createNewEmployeeDto.department,
+        createNewEmployeeDto.joindate,
+        createNewEmployeeDto.experience,
+        createNewEmployeeDto.status
       );
-      res
-        .status(201)
-        .send(
-          new ApiResponse(savedEmployee, "ok", null, {
-            total: 1,
-            took: new Date().getTime() - req.body.time,
-            length: 1,
-          })
-        );
+      res.status(201).send(
+        new ApiResponse(savedEmployee, "ok", null, {
+          total: 1,
+          took: new Date().getTime() - req.body.time,
+          length: 1,
+        })
+      );
       logger.log("info", `Successfullt created new employee`);
     } catch (error) {
       next(error);
@@ -125,17 +138,18 @@ class EmployeeController {
         createNewEmployeeDto.password,
         createNewEmployeeDto.role,
         createNewEmployeeDto.address,
-        createNewEmployeeDto.department
+        createNewEmployeeDto.department,
+        createNewEmployeeDto.joindate,
+        createNewEmployeeDto.experience,
+        createNewEmployeeDto.status
       );
-      res
-        .status(200)
-        .send(
-          new ApiResponse(updatedEmployee, "ok", null, {
-            total: 1,
-            took: new Date().getTime() - req.body.time,
-            length: 1,
-          })
-        );
+      res.status(200).send(
+        new ApiResponse(updatedEmployee, "ok", null, {
+          total: 1,
+          took: new Date().getTime() - req.body.time,
+          length: 1,
+        })
+      );
       logger.log("info", `Updated the employees by id: ${req.params.id}`);
     } catch (err) {
       next(err);
@@ -152,15 +166,13 @@ class EmployeeController {
       const deletedEmployee = await this.employeeService.deleteEmployee(
         Number(req.params.id)
       );
-      res
-        .status(200)
-        .send(
-          new ApiResponse(deletedEmployee, "ok", null, {
-            total: 1,
-            took: new Date().getTime() - req.body.time,
-            length: 1,
-          })
-        );
+      res.status(200).send(
+        new ApiResponse(deletedEmployee, "ok", null, {
+          total: 1,
+          took: new Date().getTime() - req.body.time,
+          length: 1,
+        })
+      );
       logger.log("info", `Deleted the employees by id: ${req.params.id}`);
     } catch (err) {
       next(err);
@@ -175,15 +187,13 @@ class EmployeeController {
     const { email, password } = req.body;
     try {
       const token = await this.employeeService.loginEmployee(email, password);
-      res
-        .status(200)
-        .send(
-          new ApiResponse({ token: token }, "ok", null, {
-            total: 1,
-            took: new Date().getTime() - req.body.time,
-            length: 1,
-          })
-        );
+      res.status(200).send(
+        new ApiResponse({ token: token }, "ok", null, {
+          total: 1,
+          took: new Date().getTime() - req.body.time,
+          length: 1,
+        })
+      );
       logger.log("info", `Employee Logged in with email: ${email}`);
     } catch (err) {
       next(err);

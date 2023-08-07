@@ -26,6 +26,7 @@ class DepartmentService {
 
   async updateDepartment(id: number, name: string): Promise<Department> {
     const department = await this.departmentRepository.findOneBy({ id:id });
+    console.log(department)
     department.name = name;
     return this.departmentRepository.updateDepartment(department);
   }

@@ -12,12 +12,14 @@ import HttpException from "./exception/http.exception";
 import errorMiddleware from "./middleware/error.middleware";
 import departmentRoute from "./routes/department.route";
 import logger from "./middleware/winston.middleware";
+import roleRoute from "./routes/role.route";
 
 const server = express();
 server.use(express.json());
 server.use(loggerMiddleware);
 server.use("/employees", employeeRoute);
 server.use("/department", departmentRoute);
+server.use("/roles", roleRoute);
 server.get("/", (req, res) => {
   console.log(req.url);
   res.status(200).send("Hello World Express");

@@ -10,6 +10,7 @@ import authenticate from "../middleware/authenticate.middleware";
 import authorize from "../middleware/authorize.middleware";
 import logger from "../middleware/winston.middleware";
 import ApiResponse from "../utils/response";
+import { Role } from "../utils/role.enum";
 class DepartmentController {
   public router: express.Router;
 
@@ -17,9 +18,9 @@ class DepartmentController {
     this.router = express.Router();
     this.router.get("/", authenticate, this.getAllDepartments);
     this.router.get("/:id", authenticate, this.getDepartmentById);
-    this.router.post("/", authenticate, authorize, this.createNewDepartment);
-    this.router.put("/:id", authenticate, authorize, this.updateDepartment);
-    this.router.delete("/:id", authenticate, authorize, this.deleteDepartment);
+    this.router.post("/", authenticate, authorize([Role.ADMIN,Role.HR]), this.createNewDepartment);
+    this.router.put("/:id", authenticate, authorize([Role.ADMIN,Role.HR]), this.updateDepartment);
+    this.router.delete("/:id", authenticate, authorize([Role.ADMIN,Role.HR]), this.deleteDepartment);
   }
 
   getAllDepartments = async (req: express.Request, res: express.Response) => {

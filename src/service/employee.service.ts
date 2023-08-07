@@ -27,8 +27,12 @@ class EmployeeService {
     email: string,
     password: string,
     address: any,
-    role:Role,
-    department:number
+    role: Role,
+    department: number,
+    joindate:string,
+    experience:number,
+    status:boolean,
+    
   ): Promise<Employee> {
     const newAddress = new Address();
     newAddress.line1 = address.line1;
@@ -38,11 +42,14 @@ class EmployeeService {
     const newEmployee = new Employee();
     newEmployee.name = name;
     newEmployee.email = email;
-    newEmployee.department=department
+    newEmployee.department = <any>department;
     newEmployee.password = await bcrypt.hash(password, 10);
-    newEmployee.role=role;
+    newEmployee.role = role;
     newEmployee.address = newAddress;
-
+    newEmployee.joindate=joindate;
+    newEmployee.exprience=experience;
+    newEmployee.status=status;
+    
     return this.employeeRepository.createNewEmployee(newEmployee);
   }
 
@@ -51,9 +58,12 @@ class EmployeeService {
     name: string,
     email: string,
     password: string,
-    role:Role,
+    role: Role,
     address: any,
-    department:number
+    department: number,
+    joindate:string,
+    experience:number,
+    status:boolean
   ): Promise<Employee> {
     const employee = await this.employeeRepository.findOneBy({ id: id });
 
@@ -63,13 +73,15 @@ class EmployeeService {
 
     employee.name = name;
     employee.email = email;
-    employee.role=role;
-    employee.department=department;
+    employee.role = role;
+    employee.department = <any>department;
     employee.address.line1 = address.line1;
     employee.address.line2 = address.line2;
     employee.password = await bcrypt.hash(password, 10);
     employee.address.pincode = address.pincode;
-
+    employee.joindate=joindate;
+    employee.status=status;
+    employee.exprience = experience
     return this.employeeRepository.updateEmployee(employee);
   }
 
@@ -85,28 +97,28 @@ class EmployeeService {
     return employee;
   }
 
-  async loginEmployee (email: string, password: string) {
-   const employee =  await this.employeeRepository.findOneBy({ email: email });
-   if (!employee){
-      throw new HttpException(404,"Incorrect Credentials")
-   }
-   const result = await bcrypt.compare(password,employee.password)
-   if(!result){
-    throw new HttpException(401,"Incorrect Credentials");
-   }
-  
-  const payload={
-    name:employee.name,
-    id:employee.id,
-    email:employee.email,
-    role:employee.role
-  }
+  async loginEmployee(email: string, password: string) {
+    const employee = await this.employeeRepository.findOneBy({ email: email });
+    if (!employee) {
+      throw new HttpException(404, "Incorrect Credentials");
+    }
+    const result = await bcrypt.compare(password, employee.password);
+    if (!result) {
+      throw new HttpException(401, "Incorrect Credentials");
+    }
 
-  const token = jwt.sign(payload,process.env.JWT_SECRET,{
-    expiresIn:"2h"
-  })
-  return token;
-  };
+    const payload = {
+      name: employee.name,
+      id: employee.id,
+      email: employee.email,
+      role: employee.role,
+    };
+
+    const token = jwt.sign(payload, process.env.JWT_SECRET, {
+      expiresIn: "2h",
+    });
+    return token;
+  }
 }
 
 export default EmployeeService;
