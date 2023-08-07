@@ -7,8 +7,6 @@ export class Department extends AbstractEntity {
   @Column()
   name: string;
 
-  @OneToMany(() => Employee, (employee) => employee.department, {
-    cascade: true,
-  })
+  @OneToMany(() => Employee, (employee) => employee.department)
   employees: Employee[];
 }

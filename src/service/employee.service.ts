@@ -10,8 +10,8 @@ import { Role } from "../utils/role.enum";
 class EmployeeService {
   constructor(private employeeRepository: EmployeeRepository) {}
 
-  getAllEmployees(): Promise<Employee[]> {
-    return this.employeeRepository.find();
+  getAllEmployees(skip:number,take:number): Promise<Employee[]> {
+    return this.employeeRepository.find(skip,take);
   }
 
   async getEmployeeById(id: number): Promise<Employee | null> {

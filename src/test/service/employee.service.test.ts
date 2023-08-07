@@ -69,7 +69,7 @@ describe("Employee Service Tests", () => {
       },
     });
     employeeRepository.find = mockedFunction;
-    const emp = await employeeService.getAllEmployees();
+    const emp = await employeeService.getAllEmployees(0,10);
     expect(emp).toStrictEqual({
       id: 20,
       createdat: "2023-08-05T09:54:01.703Z",

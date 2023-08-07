@@ -6,17 +6,23 @@ import { Address } from "../entity/address.entity";
 class EmployeeRepository {
   constructor(private employeeRepository: Repository<Employee>) {}
 
-  find(): Promise<Employee[]> {
-    return this.employeeRepository.find({
-      
+  find(skip: number = 0, take: number = 1): Promise<Employee[]> {
+    const emp = this.employeeRepository.find({
+      skip: skip,
+      take: take,
       relations: {
         address: true,
-       
       },
     });
+    return emp;
+    // return this.employeeRepository.find({
+    //   relations: {
+    //     address: true,
+    //   },
+    // });
   }
 
-  findOneBy(filter:Partial<Employee>): Promise<Employee| null> {
+  findOneBy(filter: Partial<Employee>): Promise<Employee | null> {
     return this.employeeRepository.findOne({
       where: filter,
       relations: {

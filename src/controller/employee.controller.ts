@@ -48,7 +48,9 @@ class EmployeeController {
   // Funtion getAllEmployees takes nothing as argument and returns all employee details along with addresses
 
   getAllEmployees = async (req: express.Request, res: express.Response) => {
-    const employees = await this.employeeService.getAllEmployees();
+    const skip = Number(req.query.skip) | 0 ;
+    const take = Number(req.query.take) | 10;
+    const employees = await this.employeeService.getAllEmployees(skip,take);
     res.status(200).send(
       new ApiResponse(employees, "ok", null, {
         total: employees.length,
@@ -59,8 +61,13 @@ class EmployeeController {
     logger.log("info", "Got all employees");
   };
 
-  // Function getEmployeeById  takes in id as request parameter ('/employee/:id') and returns the corresponding employee
-
+  /**
+ Function getEmployeeById  takes in id as request parameter ('/employee/:id') and returns the corresponding employee
+ * 
+ * @param req 
+ * @param res 
+ * @param next 
+ */
   getEmployeeById = async (
     req: express.Request,
     res: express.Response,
@@ -82,8 +89,13 @@ class EmployeeController {
       next(error);
     }
   };
-
-  //CreateNewEMployee is a post request with the details of employee and address in the request body. returns the newly created employee object
+  
+  /**
+   * CreateNewEMployee is a post request with the details of employee and address in the request body. returns the newly created employee object
+   * @param req - 
+   * @param res 
+   * @param next 
+   */
   createNewEmployee = async (
     req: express.Request,
     res: express.Response,

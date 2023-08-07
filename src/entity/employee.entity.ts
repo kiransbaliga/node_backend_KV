@@ -19,6 +19,7 @@ export class Employee extends AbstractEntity {
   @Column()
   email: string;
 
+
   @Column()
   password: string;
 
@@ -31,8 +32,8 @@ export class Employee extends AbstractEntity {
   @Column({ default: 2 })
   exprience: number;
 
-  @Column({default:true})
-  status:boolean
+  @Column({ default: true })
+  status: boolean;
 
   @OneToOne(() => Address, (address) => address.employee, { cascade: true })
   address: Address;
