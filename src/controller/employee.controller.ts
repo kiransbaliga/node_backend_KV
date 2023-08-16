@@ -45,11 +45,15 @@ class EmployeeController {
     this.router.post("/login", this.loginEmployee);
   }
 
-  // Funtion getAllEmployees takes nothing as argument and returns all employee details along with addresses
-
+  /**
+  Funtion getAllEmployees takes nothing as argument and returns all employee details along with addresses
+ * 
+ * @param req 
+ * @param res 
+ */
   getAllEmployees = async (req: express.Request, res: express.Response) => {
-    const skip = Number(req.query.skip) | 0;
-    const take = Number(req.query.take) | 10;
+    const skip = Number(req.query.skip)|| 0; 
+    const take = Number(req.query.take)|| 10;
     const employees = await this.employeeService.getAllEmployees(skip, take);
     res.status(200).send(
       new ApiResponse(employees[0], "ok", null, {

@@ -120,3 +120,45 @@
   service: 'user-service',
   timestamp: '2023-08-07T10:31:18.765Z'
 }
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:20:34.563Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:52.613Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:53.248Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:53.449Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:57.867Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:58.403Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:58.605Z'
+}

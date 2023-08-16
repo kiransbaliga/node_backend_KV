@@ -520,3 +520,135 @@
   service: 'user-service',
   timestamp: '2023-08-07T11:07:36.246Z'
 }
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:20:34.563Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:20:41.294Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:21:56.968Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:22:11.851Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:22:27.100Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:23:21.680Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:23:30.891Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:24:46.807Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:25:12.801Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:26:04.918Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-07T11:27:06.065Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-16T09:38:09.365Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T09:40:35.936Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:33:11.579Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:41:53.452Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:52.613Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:53.248Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:53.449Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:57.867Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:58.403Z'
+}
+{
+  level: 'error',
+  message: 'Incorrect Credentials',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:44:58.605Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-16T11:45:26.252Z'
+}
