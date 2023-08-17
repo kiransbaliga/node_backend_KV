@@ -10,14 +10,20 @@ import { Role } from "../utils/role.enum";
 class EmployeeService {
   constructor(private employeeRepository: EmployeeRepository) {}
 
-  getAllEmployees(skip:number = 0,take:number = 10): Promise<[Employee[],number]> {
-    return this.employeeRepository.find(skip,take);
+  getAllEmployees(
+    skip: number = 0,
+    take: number = 10
+  ): Promise<[Employee[], number]> {
+    return this.employeeRepository.find(skip, take);
   }
 
-  async getEmployeeById(id: number): Promise<Employee | null> {
-    const employee = await this.employeeRepository.findOneBy({ id: id });
+  async getEmployeeById(filter: Partial<Employee>): Promise<Employee | null> {
+    const employee = await this.employeeRepository.findOneBy(filter);
     if (!employee) {
-      throw new HttpException(404, `Employee notfound with id : ${id}`);
+      throw new HttpException(
+        404,
+        `Employee notfound with id/email : ${filter.id || filter.email}`
+      );
     }
     return employee;
   }
@@ -29,10 +35,9 @@ class EmployeeService {
     address: any,
     role: Role,
     department: number,
-    joindate:string,
-    experience:number,
-    status:boolean,
-    
+    joindate: string,
+    experience: number,
+    status: boolean
   ): Promise<Employee> {
     const newAddress = new Address();
     newAddress.line1 = address.line1;
@@ -46,10 +51,10 @@ class EmployeeService {
     newEmployee.password = await bcrypt.hash(password, 10);
     newEmployee.role = role;
     newEmployee.address = newAddress;
-    newEmployee.joindate=joindate;
-    newEmployee.exprience=experience;
-    newEmployee.status=status;
-    
+    newEmployee.joindate = joindate;
+    newEmployee.exprience = experience;
+    newEmployee.status = status;
+
     return this.employeeRepository.createNewEmployee(newEmployee);
   }
 
@@ -61,9 +66,9 @@ class EmployeeService {
     role: Role,
     address: any,
     department: number,
-    joindate:string,
-    experience:number,
-    status:boolean
+    joindate: string,
+    experience: number,
+    status: boolean
   ): Promise<Employee> {
     const employee = await this.employeeRepository.findOneBy({ id: id });
 
@@ -74,14 +79,14 @@ class EmployeeService {
     employee.name = name;
     employee.email = email;
     employee.role = role;
-    employee.departmentId= department;
+    employee.departmentId = department;
     employee.address.line1 = address.line1;
     employee.address.line2 = address.line2;
     employee.password = await bcrypt.hash(password, 10);
     employee.address.pincode = address.pincode;
-    employee.joindate=joindate;
-    employee.status=status;
-    employee.exprience = experience
+    employee.joindate = joindate;
+    employee.status = status;
+    employee.exprience = experience;
     return this.employeeRepository.updateEmployee(employee);
   }
 

@@ -8,7 +8,6 @@ import { Role } from "../../utils/role.enum";
 
 import { Address } from "../../entity/address.entity";
 
-
 describe("Employee Service Tests", () => {
   let employeeService: EmployeeService;
   let employeeRepository: EmployeeRepository;
@@ -29,7 +28,7 @@ describe("Employee Service Tests", () => {
       when(mockedFunction).calledWith({ id: 1 }).mockResolvedValueOnce(null);
       employeeRepository.findOneBy = mockedFunction;
       expect(async () => {
-        await employeeService.getEmployeeById(1);
+        await employeeService.getEmployeeById({ id: 1 });
       }).rejects.toThrowError();
     });
   });
@@ -41,7 +40,7 @@ describe("Employee Service Tests", () => {
       .calledWith({ id: 1 })
       .mockResolvedValueOnce({ id: 123 });
     employeeRepository.findOneBy = mockedFunction;
-    const emp = await employeeService.getEmployeeById(1);
+    const emp = await employeeService.getEmployeeById({ id: 1 });
     expect(emp).toStrictEqual({ id: 123 });
   });
 
@@ -69,7 +68,7 @@ describe("Employee Service Tests", () => {
       },
     });
     employeeRepository.find = mockedFunction;
-    const emp = await employeeService.getAllEmployees(0,10);
+    const emp = await employeeService.getAllEmployees(0, 10);
     expect(emp).toStrictEqual({
       id: 20,
       createdat: "2023-08-05T09:54:01.703Z",
@@ -293,7 +292,8 @@ describe("Employee Service Tests", () => {
       (employee.deletedat = null),
       (employee.updatedat = null);
     employee.email = "k@k.com";
-    employee.password = "$2b$10$Gze4XgXxcRhqEPqwAMF6xeyPOB4PIe5KFf.VVoRtvb0BLB3w2AVZ.";
+    employee.password =
+      "$2b$10$Gze4XgXxcRhqEPqwAMF6xeyPOB4PIe5KFf.VVoRtvb0BLB3w2AVZ.";
     address.line1 = "1234";
     address.line2 = "4567";
     address.pincode = "8901";
@@ -304,9 +304,11 @@ describe("Employee Service Tests", () => {
     employee.department = <any>1;
     employee.role = Role.ADMIN;
     const mockedFunction = jest.fn();
-    when(mockedFunction).calledWith({ email: employee.email }).mockResolvedValue(employee);
+    when(mockedFunction)
+      .calledWith({ email: employee.email })
+      .mockResolvedValue(employee);
     employeeRepository.findOneBy = mockedFunction;
-    const token = await employeeService.loginEmployee("k@k.com","hello@123");
-    expect(token)
+    const token = await employeeService.loginEmployee("k@k.com", "hello@123");
+    expect(token);
   });
 });

@@ -162,3 +162,513 @@
   service: 'user-service',
   timestamp: '2023-08-16T11:44:58.605Z'
 }
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:58:25.925Z'
+}
+{
+  level: 'error',
+  message: 'Employee not found with id : 32',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:17:04.798Z'
+}
+{
+  level: 'error',
+  message: 'Employee not found with id : 32',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:17:09.835Z'
+}
+{
+  level: 'error',
+  message: 'Employee not found with id : 32',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:17:13.668Z'
+}
+{
+  level: 'error',
+  message: 'Department Not found with id: 7',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:01.788Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:25.685Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:34.127Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:36.919Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:44.394Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:47.161Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:56.858Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:01.776Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:04.722Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:07.522Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:26.917Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:39.096Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:43.312Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:01.647Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:17.080Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:17.134Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:24.493Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:52.780Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:52.824Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:59.367Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:46:18.898Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:46:21.843Z'
+}
+{
+  level: 'error',
+  message: 'invalid input syntax for type integer: "NaN"',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:49:16.938Z'
+}
+{
+  level: 'error',
+  message: 'invalid input syntax for type integer: "NaN"',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:51:36.474Z'
+}
+{
+  level: 'error',
+  message: 'invalid input syntax for type integer: "NaN"',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:52:14.652Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T08:56:43.282Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T08:57:27.124Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T08:58:20.598Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:05:20.344Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:05:48.003Z'
+}
+{
+  service: 'user-service',
+  role: [
+    'role must be one of the following values: UI, DEVELOPER, HR, QA, DEVOPS, ADMIN'
+  ],
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:06:11.168Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:08:53.921Z'
+}
+{
+  service: 'user-service',
+  role: [
+    'role must be one of the following values: UI, DEVELOPER, HR, QA, DEVOPS, ADMIN'
+  ],
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:09:27.986Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:10:22.466Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:10:56.994Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:11:54.741Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:18:31.073Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:22:53.461Z'
+}
+{
+  service: 'user-service',
+  email: [ 'email should not be empty' ],
+  password: [ 'password should not be empty' ],
+  role: [
+    'role must be one of the following values: UI, DEVELOPER, HR, QA, DEVOPS, ADMIN'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:34:57.911Z'
+}
+{
+  level: 'error',
+  message: 'Department Not found with id: 3',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:37:20.777Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:38:15.767Z'
+}
+{
+  level: 'error',
+  message: 'Department Not found with id: 3',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:38:25.514Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:30:33.623Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:32:18.505Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:32:18.510Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:32:18.524Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:33.995Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:33.998Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:34.002Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:46.360Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:46.364Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:46.368Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:55.884Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:55.888Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:55.897Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:56.513Z'
+}
+{
+  service: 'user-service',
+  role: [
+    'role must be one of the following values: UI, DEVELOPER, HR, QA, DEVOPS, ADMIN',
+    'role should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T11:37:18.822Z'
+}
+{
+  service: 'user-service',
+  role: [
+    'role must be one of the following values: UI, DEVELOPER, HR, QA, DEVOPS, ADMIN',
+    'role should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T11:37:54.112Z'
+}
+{
+  service: 'user-service',
+  name: [ 'name should not be empty' ],
+  address: {
+    line1: [ 'line1 should not be empty' ],
+    line2: [ 'line2 should not be empty' ],
+    pincode: [ 'pincode should not be empty' ]
+  },
+  joindate: [ 'joindate should not be empty' ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T11:40:02.038Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T11:41:05.422Z'
+}

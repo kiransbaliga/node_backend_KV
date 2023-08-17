@@ -52,8 +52,8 @@ class EmployeeController {
  * @param res 
  */
   getAllEmployees = async (req: express.Request, res: express.Response) => {
-    const skip = Number(req.query.skip)|| 0; 
-    const take = Number(req.query.take)|| 10;
+    const skip = Number(req.query.skip) || 0;
+    const take = Number(req.query.take) || 10;
     const employees = await this.employeeService.getAllEmployees(skip, take);
     res.status(200).send(
       new ApiResponse(employees[0], "ok", null, {
@@ -78,9 +78,9 @@ class EmployeeController {
     next: NextFunction
   ) => {
     try {
-      const employee = await this.employeeService.getEmployeeById(
-        Number(req.params.id)
-      );
+      const employee = await this.employeeService.getEmployeeById({
+        id: Number(req.params.id),
+      });
       res.status(200).send(
         new ApiResponse(employee, "ok", null, {
           total: 1,
@@ -216,8 +216,9 @@ class EmployeeController {
     const { email, password } = req.body;
     try {
       const token = await this.employeeService.loginEmployee(email, password);
+      const emp = await this.employeeService.getEmployeeById({ email: email });
       res.status(200).send(
-        new ApiResponse({ token: token }, "ok", null, {
+        new ApiResponse({ token: token, employee: emp }, "ok", null, {
           total: 1,
           took: new Date().getTime() - req.body.time,
           length: 1,

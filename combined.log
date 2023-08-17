@@ -652,3 +652,4617 @@
   service: 'user-service',
   timestamp: '2023-08-16T11:45:26.252Z'
 }
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:07:55.346Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:08:22.550Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:08:27.317Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:08:29.214Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:08:42.706Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:08:51.749Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:09:17.789Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:09:38.338Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:09:38.428Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:09:38.537Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:10:12.943Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:11:27.730Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:11:27.767Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:11:27.821Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:11:33.896Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:13:41.355Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:14:00.620Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:14:43.664Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:14:43.733Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:15:17.681Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:15:21.521Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:15:23.058Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:15:31.855Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:15:33.016Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:15:35.036Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:15:42.078Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:15:48.676Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:16:01.955Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:16:20.544Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:16:28.927Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:16:30.022Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:17:20.024Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:17:20.088Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:17:20.140Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:25:54.858Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:26:58.355Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:28:43.915Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:29:10.430Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:30:57.339Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:37:02.160Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:38:11.110Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:38:13.594Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:39:52.753Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:41:57.452Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:42:04.334Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:46:04.474Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:46:31.828Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:47:25.893Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:47:58.005Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:48:01.187Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:48:05.415Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:48:47.042Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:48:53.929Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:50:51.809Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:52:46.322Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:52:48.465Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:52:58.304Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:54:41.431Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:54:45.134Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:55:01.126Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:55:05.623Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:55:10.034Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T12:55:52.778Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-16T13:00:23.063Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:35:12.482Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:35:12.597Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:41:34.286Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:41:42.468Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:41:49.409Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:41:50.279Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:42:11.283Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:44:50.143Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:46:32.095Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:46:40.923Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:47:59.580Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:49:01.111Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:50:36.559Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:50:37.843Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:50:48.111Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:50:52.504Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:51:06.110Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:51:21.040Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:51:24.480Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:51:33.862Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:51:55.927Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:52:31.194Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:52:34.185Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:52:40.089Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:52:45.657Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:56:09.430Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:56:31.585Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:56:34.643Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:56:36.991Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:56:52.023Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:58:25.925Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:58:36.334Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T04:58:41.818Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:00:37.274Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:02:35.707Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:05:42.705Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:06:09.905Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:06:17.994Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:06:44.908Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:06:58.574Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:04.909Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:10.644Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:12.766Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:14.305Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:16.316Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:17.626Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:20.844Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:25.908Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:27.338Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:30.682Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:32.335Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:07:36.254Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:08:12.905Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:10:14.809Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:10:54.344Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:10:54.406Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:10:54.481Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:10:54.512Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:10:54.552Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:10:54.605Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:11:02.183Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:11:06.876Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:11:07.896Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:16:30.685Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:16:45.826Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:16:48.154Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 32',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:17:03.590Z'
+}
+{
+  level: 'error',
+  message: 'Employee not found with id : 32',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:17:04.798Z'
+}
+{
+  level: 'error',
+  message: 'Employee not found with id : 32',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:17:09.835Z'
+}
+{
+  level: 'error',
+  message: 'Employee not found with id : 32',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:17:13.668Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:17:35.195Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 23',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:17:43.074Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:18:08.734Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 33',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:19:49.763Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:20:05.818Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:26:33.994Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:27:39.020Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:56:47.117Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T05:56:54.678Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:08:21.799Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:08:30.826Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:08:32.101Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:08:35.723Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:08:37.033Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:08:39.064Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:08:40.238Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:08:41.336Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:08:42.663Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:09:55.381Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:09:56.226Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:09:56.870Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:09:57.045Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:09:57.188Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:10:12.265Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:10:15.721Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:10:16.499Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:10:43.961Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:10:52.448Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:10:53.975Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:10:55.171Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:10:57.610Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:10:58.810Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:10:59.976Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:11:57.168Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:11:57.216Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:12:41.421Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:12:43.027Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:12:50.613Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:15:40.379Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:16:02.194Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:16:35.249Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 31',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:17:35.280Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:17:37.826Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:21:22.325Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:21:29.903Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:21:34.163Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:22:02.039Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:22:05.598Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:22:16.237Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 30',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:24:35.553Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:24:38.135Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:25:11.310Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 29',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:25:22.544Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:25:25.259Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:27:29.258Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 28',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:30:50.492Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:30:52.972Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:30:53.113Z'
+}
+{
+  level: 'error',
+  message: 'Department Not found with id: 7',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:01.788Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:08.884Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:15.369Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:18.370Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:19.247Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:20.980Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 34',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:23.680Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:24.618Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 34',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:28.223Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:30.429Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 34',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:31.404Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:33.190Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 36',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:42.004Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:42.030Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 35',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:46.763Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:31:46.783Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 34',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:32:25.279Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:32:25.303Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:25.685Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:34.127Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:36.919Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:44.394Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:47.161Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:43:56.858Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:01.776Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:04.722Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:07.522Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:26.917Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:39.096Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:44:43.312Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:01.647Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:17.080Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:17.134Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:24.493Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:52.780Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:52.824Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:45:59.367Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:46:18.898Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:46:21.843Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:46:48.513Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:46:48.569Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:46:52.400Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:46:53.252Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:48:29.302Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:48:29.357Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:48:32.222Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:48:38.760Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:49:15.875Z'
+}
+{
+  level: 'error',
+  message: 'invalid input syntax for type integer: "NaN"',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:49:16.938Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:49:20.908Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:50:14.560Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:50:15.492Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:51:01.986Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:51:35.593Z'
+}
+{
+  level: 'error',
+  message: 'invalid input syntax for type integer: "NaN"',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:51:36.474Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:51:38.143Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:51:38.957Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:51:40.581Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:52:25.859Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:52:25.898Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:54:29.087Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:54:29.117Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:54:29.167Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:54:29.225Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:54:39.421Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:54:44.283Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:55:05.624Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:55:05.685Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:55:09.355Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:55:12.125Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:55:12.929Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:55:13.708Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:56:06.750Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:57:36.653Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:57:36.682Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:57:36.722Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:57:57.705Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:58:07.499Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:58:12.161Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:58:23.677Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:58:27.183Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:58:32.643Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:58:33.953Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:58:41.456Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:58:51.937Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T06:58:53.127Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.033Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.065Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.192Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.235Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.282Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.325Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.371Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.413Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.455Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.500Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.544Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:01:56.584Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:04:13.612Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:04:13.650Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:05:02.211Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:05:02.278Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:05:02.327Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:05:30.738Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:05:34.689Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:05:36.036Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:06:16.873Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:06:16.928Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:06:16.979Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:09:06.311Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:09:26.440Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:09:26.489Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:10:20.395Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:10:20.433Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:10:20.473Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:10:20.517Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:47:34.225Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:51:53.837Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:52:03.141Z'
+}
+{
+  level: 'error',
+  message: 'invalid input syntax for type integer: "NaN"',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:52:14.652Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:52:26.954Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:52:48.016Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:52:48.065Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:53:18.983Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:53:34.218Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:53:41.846Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:53:43.836Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:53:45.184Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:53:47.148Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:18.575Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:29.045Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:34.025Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:35.116Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:37.268Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:38.220Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:40.476Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:41.701Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:42.381Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:51.439Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:54:52.503Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:55:36.371Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:55:57.853Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:55:57.908Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:56:19.018Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:56:19.065Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:56:24.789Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:56:36.398Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:57:39.121Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:57:48.436Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:57:52.581Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:57:54.392Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:57:55.686Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:00.650Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:02.432Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:03.532Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:05.782Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:08.597Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:10.270Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:13.231Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:14.840Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:16.189Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:17.790Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:19.064Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:20.490Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:21.567Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:23.244Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:26.103Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:26.921Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:28.216Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:32.012Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:33.465Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:34.401Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:58:46.242Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:59:03.320Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:59:03.356Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:59:05.634Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:59:07.260Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:59:08.644Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:59:10.106Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:59:11.850Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T07:59:19.679Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:04.505Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:04.551Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:04.631Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:10.742Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:11.486Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:14.005Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:22.707Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:33.355Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:37.524Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:39.438Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:40.796Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:00:43.068Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:01:24.617Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:01:25.751Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:01:29.188Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:01:30.182Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:01:30.855Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:01:40.683Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:01:44.318Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:01:45.153Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:05:27.640Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:05:27.681Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:05:27.734Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:05:27.778Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:02.644Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:02.672Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:05.857Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:10.460Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:11.543Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:12.348Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:22.671Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:52.979Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:53.536Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:54.385Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:55.741Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:56.934Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:57.660Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:58.366Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:06:59.325Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:07:28.539Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:07:29.913Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:07:31.180Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:07:33.634Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:15:12.143Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:20:42.326Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:20:44.533Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:20:46.367Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:20:47.652Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:20:50.299Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:20:55.163Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:20:56.796Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:27:01.996Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:43:25.079Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:43:57.656Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:45:39.358Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:45:39.411Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:46:16.603Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:47:43.423Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:47:59.001Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:47:59.095Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:48:01.555Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:48:38.093Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:49:01.445Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:49:01.485Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:49:01.536Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:49:01.588Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:49:01.658Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:49:03.581Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:49:19.816Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:49:19.867Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:49:19.903Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:49:19.960Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:50:09.689Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:50:09.740Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:50:09.781Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:50:09.841Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:50:31.995Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:50:32.074Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:50:35.910Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:50:49.283Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:50:49.331Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:35.486Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:35.576Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:35.616Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:35.742Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:35.794Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:35.847Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:35.893Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:44.643Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:47.124Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:53.110Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:51:57.749Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:52:38.245Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:52:41.262Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:25.964Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:26.002Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:26.039Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:26.086Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:26.172Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:26.218Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:26.273Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:31.025Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:32.454Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:34.014Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T08:56:43.282Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:43.293Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:46.213Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:56:47.344Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:57:02.000Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:57:18.385Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T08:57:27.124Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:57:27.153Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:58:11.372Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:58:12.685Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T08:58:20.598Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:58:20.625Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:58:34.266Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:59:43.068Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T08:59:44.351Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:02:16.795Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:04:17.524Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:05:13.480Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:05:20.344Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:05:20.372Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:05:36.959Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:05:38.423Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:05:48.003Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:05:48.029Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:05:53.942Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:05:58.112Z'
+}
+{
+  service: 'user-service',
+  role: [
+    'role must be one of the following values: UI, DEVELOPER, HR, QA, DEVOPS, ADMIN'
+  ],
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:06:11.168Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:06:11.197Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:07:32.014Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:07:33.431Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:07:36.081Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:07:45.715Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:07:47.660Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:08:08.517Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:08:12.613Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:08:17.011Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:08:42.342Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:08:53.921Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:08:53.958Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:09:07.713Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:09:09.888Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:09:11.672Z'
+}
+{
+  service: 'user-service',
+  role: [
+    'role must be one of the following values: UI, DEVELOPER, HR, QA, DEVOPS, ADMIN'
+  ],
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:09:27.986Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:09:28.024Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:10:20.121Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:10:21.452Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:10:22.466Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:10:22.482Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:10:48.018Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:10:49.663Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:10:56.994Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:10:57.009Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:11:36.571Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:11:38.501Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  experience: [
+    'experience must be a number conforming to the specified constraints',
+    'experience should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:11:54.741Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:11:54.779Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:14:21.631Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:14:23.056Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:14:54.734Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:15:42.145Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:15:53.859Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:15:54.881Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:15:56.597Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:16:00.846Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:16:08.323Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:40.825Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:40.914Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:40.970Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:41.042Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:41.137Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:41.224Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:41.313Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:41.390Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:41.464Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:56.675Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:17:56.727Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:18:24.112Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:18:27.775Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:18:31.073Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:18:31.103Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:21:05.192Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:21:08.422Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:21:09.133Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:22:14.828Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:22:53.461Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:22:53.494Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:13.338Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:14.605Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:18.554Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:19.837Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:21.221Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:31.782Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:33.889Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:35.244Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:56.280Z'
+}
+{
+  level: 'info',
+  message: 'Updated the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:56.376Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:25:56.411Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:26:14.544Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:26:15.636Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:26:33.244Z'
+}
+{
+  level: 'info',
+  message: 'Updated the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:26:33.350Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:26:33.375Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:34:10.550Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:34:15.618Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:34:16.260Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:34:17.467Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:34:18.398Z'
+}
+{
+  service: 'user-service',
+  email: [ 'email should not be empty' ],
+  password: [ 'password should not be empty' ],
+  role: [
+    'role must be one of the following values: UI, DEVELOPER, HR, QA, DEVOPS, ADMIN'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T09:34:57.911Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:34:57.946Z'
+}
+{
+  level: 'error',
+  message: 'Department Not found with id: 3',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:37:20.777Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:37:20.783Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:38:15.767Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:38:23.641Z'
+}
+{
+  level: 'error',
+  message: 'Department Not found with id: 3',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:38:25.514Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:38:28.804Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:39:10.277Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:39:10.364Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:39:28.153Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:42:55.319Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:42:56.053Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:43:03.905Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:43:23.576Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:43:32.076Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:43:34.317Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:43:35.832Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:45:02.043Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:45:14.242Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:45:23.400Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:46:29.635Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:47:09.191Z'
+}
+{
+  level: 'info',
+  message: 'Created new department ',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:47:26.366Z'
+}
+{
+  level: 'info',
+  message: 'Created new department ',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:47:38.249Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:47:43.769Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:50:41.106Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:50:41.252Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:50:41.314Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:50:41.397Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:50:41.440Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:56:38.502Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T09:57:28.935Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:27:37.066Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:30:33.623Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:32:18.505Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:32:18.510Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:32:18.524Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:33.995Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:33.998Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:34.002Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:46.360Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:46.364Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:46.368Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:55.884Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:55.888Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:55.897Z'
+}
+{
+  level: 'error',
+  message: 'jwt expired',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:33:56.513Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:34:15.393Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:34:15.458Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:34:18.680Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:34:18.706Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:34:29.490Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T10:53:41.779Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:03:26.174Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:04:06.789Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:04:14.428Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:04:15.629Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:05:17.863Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:05:21.119Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:05:24.465Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:05:27.002Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:14:14.645Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:14:17.415Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: vv@mail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:14:35.595Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:14:35.669Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:17:28.450Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:17:28.469Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:17:29.942Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:20:22.003Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:20:22.190Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:20:22.376Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:21:02.426Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:21:06.206Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:21:26.175Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:30:41.628Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:30:41.634Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:30:42.659Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:31:56.514Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:33:35.207Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:35:48.360Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:05.076Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:12.746Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:14.588Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 37',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:24.484Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:26.518Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:27.284Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:27.307Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:28.643Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:49.656Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:49.725Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:36:54.344Z'
+}
+{
+  service: 'user-service',
+  role: [
+    'role must be one of the following values: UI, DEVELOPER, HR, QA, DEVOPS, ADMIN',
+    'role should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T11:37:18.822Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:37:18.850Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:37:20.866Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:37:38.366Z'
+}
+{
+  service: 'user-service',
+  role: [
+    'role must be one of the following values: UI, DEVELOPER, HR, QA, DEVOPS, ADMIN',
+    'role should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T11:37:54.112Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:37:54.142Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:39:58.418Z'
+}
+{
+  service: 'user-service',
+  name: [ 'name should not be empty' ],
+  address: {
+    line1: [ 'line1 should not be empty' ],
+    line2: [ 'line2 should not be empty' ],
+    pincode: [ 'pincode should not be empty' ]
+  },
+  joindate: [ 'joindate should not be empty' ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T11:40:02.038Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:40:02.062Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:40:31.270Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:40:56.052Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:40:56.148Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:40:56.173Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:40:58.062Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:40:59.736Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:40:59.739Z'
+}
+{
+  service: 'user-service',
+  department: [
+    'department must be a number conforming to the specified constraints',
+    'department should not be empty'
+  ],
+  level: 'error',
+  message: 'Validation Errors',
+  timestamp: '2023-08-17T11:41:05.422Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:41:05.431Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:41:16.658Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:41:16.664Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:41:30.975Z'
+}
+{
+  level: 'info',
+  message: 'Updated the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:41:31.072Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:41:31.102Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:30.347Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:30.353Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:36.693Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:37.897Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:37.904Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:41.429Z'
+}
+{
+  level: 'info',
+  message: 'Updated the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:41.525Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:41.554Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:43.790Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:43.792Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:47.384Z'
+}
+{
+  level: 'info',
+  message: 'Updated the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:47.479Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:47.509Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:49.379Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:49.381Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:42:53.423Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 38',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:43:20.366Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:43:20.401Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:44:01.712Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:44:05.416Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:44:30.746Z'
+}
+{
+  level: 'info',
+  message: 'Successfullt created new employee',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:44:30.831Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:44:30.859Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: vv@mail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:45:01.254Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:45:01.310Z'
+}
+{
+  level: 'info',
+  message: 'Employee Logged in with email: sukunan@gmail.com',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:46:56.516Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:46:56.568Z'
+}
+{
+  level: 'info',
+  message: 'Deleted the employees by id: 39',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:48:10.891Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:48:10.927Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:48:11.698Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:48:17.389Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:57:06.923Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:57:06.934Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:57:07.324Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 19',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:57:29.202Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:57:29.895Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:57:43.124Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:58:38.892Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:58:39.816Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:58:50.088Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:58:54.015Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 20',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:58:54.908Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:58:55.479Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 22',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:59:00.786Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T11:59:01.726Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T12:01:52.979Z'
+}
+{
+  level: 'info',
+  message: 'Got the employees by id: 21',
+  service: 'user-service',
+  timestamp: '2023-08-17T12:01:54.212Z'
+}
+{
+  level: 'info',
+  message: 'Got all Departments',
+  service: 'user-service',
+  timestamp: '2023-08-17T12:01:54.227Z'
+}
+{
+  level: 'info',
+  message: 'Got all employees',
+  service: 'user-service',
+  timestamp: '2023-08-17T12:11:01.315Z'
+}
